@@ -6,7 +6,7 @@ function ImageList({ images }) {
         
         return (
         <div  key={image.id}>
-            <ImageShow image={image}  />;
+            <ImageShow image={image}  />
         </div>
         );
     });
