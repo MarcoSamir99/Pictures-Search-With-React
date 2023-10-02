@@ -1,9 +1,17 @@
 .image-list {
     columns: 6 200px;
     column-gap: 10px;
+    padding-left:  40px;
+    padding-right:  40px;
 }
 
 img {
     width: 100%;
     margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.4);
 }
